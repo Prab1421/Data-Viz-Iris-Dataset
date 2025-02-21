@@ -16,7 +16,7 @@ We've to perform 1. List down the features and their types (e.g., numeric, nomin
 ![Histplot](Histograms-all-features.png)
 
 # Box Plot for all features
-![Box-Plot](boxploat-all-features.png)
+![Box-Plot](boxplot-all-features.png)
 
 # Outliers (IQR Method):
 - Id: 0 outliers
