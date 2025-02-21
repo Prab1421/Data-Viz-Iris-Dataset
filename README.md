@@ -10,6 +10,14 @@ We've to perform 1. List down the features and their types (e.g., numeric, nomin
 - PetalWidthCm     float64
 - Species           object
 - dtype: object
+
+
+# Histplot for all features
+![Histplot](Histograms-all-features.png)
+
+# Box Plot for all features
+![Box-Plot](boxploat-all-features.png)
+
 # Outliers (IQR Method):
 - Id: 0 outliers
 - Empty DataFrame
@@ -31,6 +39,8 @@ The following table lists the detected outliers in the dataset:
 | 34  | 5.5         | 4.2         | 1.4          | 0.2         | Iris-setosa   |
 | 61  | 5.0         | 2.0         | 3.5          | 1.0         | Iris-versicolor |
 
+![Outliers-IQR](outliers-IQR-features.png)
+
   
 # PetalLengthCm: 0 outliers
 - Empty DataFrame
@@ -47,4 +57,6 @@ The following table lists the detected outliers in the dataset using the Z-score
 | Id  | SepalLengthCm | SepalWidthCm | PetalLengthCm | PetalWidthCm | Species      |
 |---- |--------------|-------------|--------------|-------------|------------|
 | 16  | 5.7         | 4.4         | 1.5          | 0.4         | Iris-setosa |
+
+![Outliers-Z-Score](outliers-Z-score-features.png)
 
